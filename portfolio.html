@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+
   </head>
   <body>
     <header class="page-header">
@@ -31,7 +31,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="projects">Наші проєкти</h1>
+          <h1 class="visually-hidden">Наші проєкти</h1>
             <ul class="site-filter list">
               <li class="item"><button class="link current" type="button">Усі</button></li>
               <li class="item"><button class="link" type="button">Веб-сайти</button></li>
@@ -41,49 +41,67 @@
             </ul>
             <ul class="project-cards">
               <li class="item">
-                <img src="./images/web.jpg" alt="MacBook Pro" width="370" height="294" />
-                <h2 class="project">Технокряк</h2>
-                <p class="project-paragraph">Веб-сайт</p>
+                <img class="img" src="./images/web.jpg" alt="MacBook Pro" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project">Технокряк</h2>
+                    <p class="project-paragraph">Веб-сайт</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/design.jpg" alt="Баскетбольні гравці" width="370" height="294" />
-                <h2 class="project" lang="en">Постер New Orlean vs Golden Star</h2>
-                <p class="project-paragraph">Дизайн</p>
+                <img class="img" src="./images/design.jpg" alt="Баскетбольні гравці" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Постер New Orlean vs Golden Star</h2>
+                    <p class="project-paragraph">Дизайн</p>
+                  </div>
+              </li> 
+              <li class="item">
+                <img class="img" src="./images/add.jpg" alt="Ресторан Seafood" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Ресторан Seafood</h2>
+                    <p class="project-paragraph">Додаток</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/add.jpg" alt="Ресторан Seafood" width="370" height="294" />
-                <h2 class="project" lang="en">Ресторан Seafood</h2>
-                <p class="project-paragraph">Додаток</p>
+                <img class="img" src="./images/prime.jpg" alt="Навушники" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Проєкт Prime</h2>
+                    <p class="project-paragraph">Маркетинг</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/prime.jpg" alt="Навушники" width="370" height="294" />
-                <h2 class="project" lang="en">Проєкт Prime</h2>
-                <p class="project-paragraph">Маркетинг</p>
+                <img class="img" src="./images/projectboxes.jpg" alt="Коробки" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Проєкт Boxes</h2>
+                    <p class="project-paragraph">Додаток</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/projectboxes.jpg" alt="Коробки" width="370" height="294" />
-                <h2 class="project" lang="en">Проєкт Boxes</h2>
-                <p class="project-paragraph">Додаток</p>
+                <img class="img" src="./images/imac.jpg" alt="iMac" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Inspiration has no Borders</h2>
+                    <p class="project-paragraph">Веб-сайт</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/imac.jpg" alt="iMac" width="370" height="294" />
-                <h2 class="project" lang="en">Inspiration has no Borders</h2>
-                <p class="project-paragraph">Веб-сайт</p>
+                <img class="img" src="./images/limited.jpg" alt="Видання" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Видання Limited Edition</h2>
+                    <p class="project-paragraph">Дизайн</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/limited.jpg" alt="Видання" width="370" height="294" />
-                <h2 class="project" lang="en">Видання Limited Edition</h2>
-                <p class="project-paragraph">Дизайн</p>
+                <img class="img" src="./images/projectlab.jpg" alt="Label" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Проєкт LAB</h2>
+                    <p class="project-paragraph">Маркетинг</p>
+                  </div>
               </li>
               <li class="item">
-                <img src="./images/projectlab.jpg" alt="Label" width="370" height="294" />
-                <h2 class="project" lang="en">Проєкт LAB</h2>
-                <p class="project-paragraph">Маркетинг</p>
-              </li>
-              <li class="item">
-                <img src="./images/business.jpg" alt="Laptop" width="370" height="294" />
-                <h2 class="project" lang="en">Growing Business</h2>
-                <p class="project-paragraph">Додаток</p>
+                <img class="img" src="./images/business.jpg" alt="Laptop" width="370" height="294" />
+                  <div class="card">
+                    <h2 class="project" lang="en">Growing Business</h2>
+                    <p class="project-paragraph">Додаток</p>
+                  </div>
               </li>
             </ul>
         </div>
